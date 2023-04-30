@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+#header{
+    padding-top: 5px;
+    font-family: Kalam;
+    font-size: 60px;
+}
+
+.jumbotron{
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects{
+    background-color: #e2edff;
+}
+
+#contact{
+    background-color: #e2edff;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.nama{
+    width: 100px;
+}
+
+.OutBox{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox{
+    width: 90%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: html 4s ease-in-out forwards;
+}
+.OutBox2{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox2{
+    width: 85%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: css 4s ease-in-out forwards;
+}
+.OutBox3{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox3{
+    width: 70%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: java 4s ease-in-out forwards;
+}
+.OutBox4{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox4{
+    width: 75%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: bootstrap 4s ease-in-out forwards;
+}
+.OutBox5{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox5{
+    width: 75%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: sql 4s ease-in-out forwards;
+}
+.OutBox6{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox6{
+    width: 65%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: javascript 4s ease-in-out forwards;
+}
+.OutBox7{
+    width: 300px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.InnerBox7{
+    width: 60%;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#1fe6ff,#673ab7);
+    animation: python 4s ease-in-out forwards;
+}
+
+@keyframes html{
+    0%{
+        width:0;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes java{
+    0%{
+        width:0;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width:0;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes sql{
+    0%{
+        width:0;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width:0;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes python{
+    0%{
+        width:0;
+    }
+    100%{
+        width:60%;
+    }
+}
