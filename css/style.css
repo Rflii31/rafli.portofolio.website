@@ -27,6 +27,7 @@ section{
     width: 100px;
 }
 
+/* html progress bar */
 .OutBox{
     width: 300px;
     height: 15px;
@@ -38,12 +39,14 @@ section{
 }
 
 .InnerBox{
-    width: 90%;
+    width: 60%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
     animation: html 4s ease-in-out forwards;
 }
+
+/* css progress bar */
 .OutBox2{
     width: 300px;
     height: 15px;
@@ -55,12 +58,14 @@ section{
 }
 
 .InnerBox2{
-    width: 85%;
+    width: 55%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
     animation: css 4s ease-in-out forwards;
 }
+
+/* java progress bar */
 .OutBox3{
     width: 300px;
     height: 15px;
@@ -72,12 +77,14 @@ section{
 }
 
 .InnerBox3{
-    width: 70%;
+    width: 50%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
     animation: java 4s ease-in-out forwards;
 }
+
+/* bootstrap progress bar */
 .OutBox4{
     width: 300px;
     height: 15px;
@@ -89,12 +96,14 @@ section{
 }
 
 .InnerBox4{
-    width: 75%;
+    width: 50%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
     animation: bootstrap 4s ease-in-out forwards;
 }
+
+/* mysql progress bar  */
 .OutBox5{
     width: 300px;
     height: 15px;
@@ -106,12 +115,14 @@ section{
 }
 
 .InnerBox5{
-    width: 75%;
+    width: 50%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
     animation: sql 4s ease-in-out forwards;
 }
+
+/* javascript progress bar  */
 .OutBox6{
     width: 300px;
     height: 15px;
@@ -123,12 +134,14 @@ section{
 }
 
 .InnerBox6{
-    width: 65%;
+    width: 25%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
     animation: javascript 4s ease-in-out forwards;
 }
+
+/* python progress bar  */
 .OutBox7{
     width: 300px;
     height: 15px;
@@ -140,7 +153,7 @@ section{
 }
 
 .InnerBox7{
-    width: 60%;
+    width: 30%;
     height: 15px;
     border-radius: 10px;
     background: linear-gradient(45deg,#1fe6ff,#673ab7);
@@ -152,7 +165,7 @@ section{
         width:0;
     }
     100%{
-        width:90%;
+        width:60%;
     }
 }
 @keyframes css{
@@ -160,7 +173,7 @@ section{
         width:0;
     }
     100%{
-        width:85%;
+        width:55%;
     }
 }
 @keyframes java{
@@ -168,7 +181,7 @@ section{
         width:0;
     }
     100%{
-        width:70%;
+        width:50%;
     }
 }
 @keyframes bootstrap{
@@ -176,7 +189,7 @@ section{
         width:0;
     }
     100%{
-        width:75%;
+        width:50%;
     }
 }
 @keyframes sql{
@@ -184,7 +197,7 @@ section{
         width:0;
     }
     100%{
-        width:75%;
+        width:50%;
     }
 }
 @keyframes javascript{
@@ -192,7 +205,7 @@ section{
         width:0;
     }
     100%{
-        width:65%;
+        width:25%;
     }
 }
 @keyframes python{
@@ -200,6 +213,6 @@ section{
         width:0;
     }
     100%{
-        width:60%;
+        width:30%;
     }
 }
