@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 #header{
     padding-top: 5px;
@@ -25,6 +26,48 @@ section{
 
 .nama{
     width: 100px;
+}
+
+.card{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background:  #e2edff8d;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #0d6efd;
+    font-size: 30px;
+    font-family: 'Raleway';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
 }
 
 /* html progress bar */
