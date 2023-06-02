@@ -16,7 +16,7 @@ html {
   background-color: #e2edff;
 }
 
-#download:link, a:visited {
+#download:link{
     background-color:#0d6efd;
   color: #ffff;
   border: 2px solid #0d6efd;
@@ -25,7 +25,7 @@ html {
   text-decoration: none;
   display: inline-block;
 }
-#download:hover, a:active {
+#download:hover {
     background-color: #ffff;
     color: #0d6efd;
 }
