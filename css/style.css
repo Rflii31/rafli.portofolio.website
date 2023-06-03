@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
-html, body {
+html, body, section {
   scroll-behavior: smooth;
+}
+
+b{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
 }
 
 #header {
@@ -69,7 +75,7 @@ section {
 .layer:hover {
   background: #e2edff8d;
 }
-.layer h3 {
+.layer a > h3{
   width: 100%;
   font-weight: 500;
   color: #0d6efd;
@@ -89,7 +95,7 @@ section {
 }
 
 .list-inline-item{
-    width: 80px;
+  width: 80px;
 }
 
 .list-inline-item:hover{
