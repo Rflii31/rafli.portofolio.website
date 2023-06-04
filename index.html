@@ -19,7 +19,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-lg fixed-top">
       <div class="container">
-        <a href="./index.html"><!-- <img src="./img/logo.png" alt="Logo" width="60px" class="rounded-circle" />--> <b>RAFLI PUTRA</b></a>
+        <a onclick="refreshPage()"><!-- <img src="./img/logo.png" alt="Logo" width="60px" class="rounded-circle" />--> <b>RAFLI PUTRA</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -69,12 +69,19 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-4 text-center">
-          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
-            <p>Hello, I'm a vocational high school student, I majored in Software Engineering. I started studying Software Engineering since 2021.</p>
+        <div class="row justify-content-center fs-5 ">
+          <div class="col-md-5 ps-4 text-center" data-aos="fade-right" data-aos-duration="1500">
+            <p>Hello, I'm a vocational high school student, I majored in Software Engineering. I started studying Software Engineering since 2021. I have great curiosity and always open to learn new things. I have also made several games from the construct 2, godot game engine and unity.</p>
           </div>
-          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
-            <p>I have great curiosity and always open to learn new things. I have also made several games from the construct 2, godot game engine and unity.</p>
+          <div class="col-md-5" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+            <div class="text-start ms-2">
+              <strong>Name:</strong> Rafli Putra Pratama Ramadhana Irawan <br>
+              <strong>Birth:</strong> 31 Oktober 2005 <br>
+              <strong>Age:</strong> 17 Years <br>
+              <strong>Phone:</strong> +62 812 3148 9334 <br>
+              <strong>Email:</strong> rafliputra634@gmail.com <br>
+              <strong>Address:</strong> Kec. Lawang, Kab. Malang, East Java <br>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -92,6 +99,8 @@
       </svg>
     </section>
     <!-- Akhir About -->
+
+    <!--  -->
 
     <!-- Projects -->
     <section id="projects">
@@ -381,6 +390,13 @@
           });
         });
       });
+    </script>
+
+    <!-- Refresh Page -->
+    <script>
+      function refreshPage() {
+        location.reload();
+      }
     </script>
 
     <script>
