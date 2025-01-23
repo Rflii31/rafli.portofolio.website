@@ -76,7 +76,7 @@ section {
 .layer:hover {
   background: #e2edff8d;
 }
-.layer a > h3{
+.layer h3{
   width: 100%;
   font-weight: 500;
   color: #0d6efd;
